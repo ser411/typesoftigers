@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import PIL
 from PIL import Image
 
 st.title("9 Types of Tigers")
