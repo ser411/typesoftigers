@@ -6,10 +6,6 @@ from PIL import Image
 st.title("9 Types of Tigers")
 st.header("Lets learn about all 9 types of tigers, including population size, weight, range, and unique features.")
 
-image = Image.open('tigers.jpg')
-
-st.image(image, caption=None)
-
 st.subheader("**Endangered Status**")
 st.write("**1.Siberian Tiger**")
 
