@@ -1,7 +1,5 @@
 import streamlit as st
 import pandas as pd
-import PIL
-from PIL import Image
 
 st.title("9 Types of Tigers")
 st.header("Lets learn about all 9 types of tigers, including population size, weight, range, and unique features.")
@@ -13,8 +11,6 @@ st.write(pd.DataFrame({
        'List': ['Endangered Status','Common name','Latin name','Also known as','Range','Weight','Size','Unique Features'],
        'Description':['Endangered','Siberian tiger','Panthera tigris altaica','Korean tiger, Amur tiger, Manchurian tiger, Ussurian tiger','North Asia (Russia, China, Korea)','389 – 475 lbs (males), 260 – 303 lbs (females)','70 – 82 inches (males), 66 – 72 inches (females)','Big size, pale fur']
        }))
-image = Image.open('siberian.jpg')
-st.image(image, caption='Siberian Tiger')
 
 
 st.write("**2.Bengal Tiger**")
@@ -24,9 +20,6 @@ st.write(pd.DataFrame({
     'Description':['Endangered','Bengal tiger','Panthera tigris tigris','Royal Bengal tiger, Indian tiger','Indian subcontinent (India, Nepal, Bhutan, Bangladesh)','397 – 569 lbs (males), 220 – 350 lbs (females)','110 – 120 inches (males), 94 – 104 inches (females)','Large bodies, white mutation']
 }))
 
-image = Image.open('bengal.jpg')
-
-st.image(image, caption='Bengal Tiger')
 
 
 st.write("**3.Indochinese Tiger**")
@@ -36,9 +29,6 @@ st.write(pd.DataFrame({
     'Description':['Near critically endangered','Indochinese tiger','Panthera tigris corbetti','Corbett’s tiger','Southeast Asia (Thailand, Vietnam, Laos, Burma, China, formerly Cambodia)','331 to 430 lbs (males), 220 – 290 lbs (females)','100 – 112 inches (males), 91 – 100 inches (females)','Short, narrow, single stripes']
 }))
 
-image = Image.open('indochinese.jpg')
-
-st.image(image, caption='Indochinese Tiger')
 
 
 st.write("**4.Malayan Tiger**")
@@ -48,9 +38,6 @@ st.write(pd.DataFrame({
     'Description':['Critically endangered','Malayan tiger','Panthera tigris jacksoni and occasionally Panthera tigris malayensis','Southern Indochinese tiger','Southeast Asia (Malaysia, Thailand, Burma)','220 – 308 lbs (males), 165 – 245 lbs (females)','75 – 112 inches (males), 70 – 103 inches (females)','Small and endangered. No notable physical difference between the Indochinese and Malayan tigers.']
 }))
 
-image = Image.open('malayan.jpg')
-
-st.image(image, caption='Malayan Tiger')
 
 
 st.write("**5.South China Tiger**")
@@ -70,9 +57,7 @@ st.write(pd.DataFrame({
     'Description':['Critically endangered','Sumatran tiger','Panthera tigris sumatrae','Indonesia','220 – 310 lbs (males), 165 – 243 lbs (females)','87 – 100 inches (males), 85 – 91 inches (females)','Smallest breed, genetically isolated, the only surviving tiger species in the Sudra Islands.']
 }))
 
-image = Image.open('sumatran.jpg')
 
-st.image(image, caption='Sumatran Tiger')
 
 
 st.subheader("**Extinct**")
