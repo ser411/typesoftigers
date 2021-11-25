@@ -8,3 +8,4 @@ scikit-learn==1.0.1
 keras==2.7.0
 Keras-Preprocessing==1.1.2
 keras-vis==0.4.1
+pip install pipreqs
