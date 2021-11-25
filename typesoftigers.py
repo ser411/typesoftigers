@@ -15,7 +15,6 @@ st.write(pd.DataFrame({
        }))
 image = Image.open('siberian.jpg')
 st.image(image, caption='Siberian Tiger')
-image.show()
 
 
 st.write("**2.Bengal Tiger**")
@@ -28,7 +27,6 @@ st.write(pd.DataFrame({
 image = Image.open('bengal.jpg')
 
 st.image(image, caption='Bengal Tiger')
-image.show()
 
 
 st.write("**3.Indochinese Tiger**")
@@ -41,7 +39,6 @@ st.write(pd.DataFrame({
 image = Image.open('indochinese.jpg')
 
 st.image(image, caption='Indochinese Tiger')
-image.show()
 
 
 st.write("**4.Malayan Tiger**")
@@ -54,7 +51,6 @@ st.write(pd.DataFrame({
 image = Image.open('malayan.jpg')
 
 st.image(image, caption='Malayan Tiger')
-image.show()
 
 
 st.write("**5.South China Tiger**")
@@ -77,7 +73,7 @@ st.write(pd.DataFrame({
 image = Image.open('sumatran.jpg')
 
 st.image(image, caption='Sumatran Tiger')
-image.show()
+
 
 st.subheader("**Extinct**")
 st.write("(3 Subspecies Extinct tiger)")
